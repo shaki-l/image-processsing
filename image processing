@@ -1,5 +1,6 @@
 from PIL import Image
 img=Image.open("image.jpg")
+img.show('image')
 w,h=img.size
 for i in range(w):
     for j in range(h):
